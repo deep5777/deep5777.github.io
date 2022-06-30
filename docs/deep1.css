@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+/* */
+:root{
+    --navbar-height: 60px;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/* css  variables*/
+/* navigation bar */
+.navMenu {
+  position: relative;
+  display: flex;
+  align-items: center;
+  /* height: 500px; */
+  background: url('black1.jpg') no-repeat center center/cover ;
+  background-size: contain;
+  padding-bottom: 84.03%;
+  margin: 0;
+  background-color: #070707;
+   
+
+
+  /* top: 7%; */
+  /* left: 82%; */
+   /* -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
+} 
+
+.navMenu ul{
+    display:flex;
+   
+}
+.navMenu ::before{
+    content: "";
+    position: absolute;
+    /* height: 280px;
+    width: 1320px; */
+    z-index: -1;
+   
+
+}
+
+.navMenu ul li { 
+    list-style: none;
+}
+
+
+.navMenu ul li a {
+  color: #efe7e7;
+  text-decoration: none;
+  font-size: 1.2em; 
+  text-transform: uppercase;
+  font-weight: 500;
+   padding: 3px 32px 30px; 
+   border-radius: 20px;
+ 
+ 
+}
+
+.navMenu ul li a:hover {
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+
+
+ #logo img {
+    /* padding:13px 6p; */
+    width: 180px;
+    /* margin-top: 20px; */
+     height: 180 px; 
+ }
+/* home window */
+ #home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 160px 500px;
+    height: 300px;
+    width: auto;
+    text-align: center;
+    /* opacity: 0.800; */
+    /* background: url('black1.jpg') no-repeat center center/cover ; */
+    color: black;
+    
+
+ }
+
+ home ::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+    text-align: center;
+    top:1vh;
+
+}
+
+
+.abp{
+    font-size: 2.9rem;
+    padding: 15px;
+}
+
+.abt
+{
+    font-size: 1.5rem;
+    padding: 5px;
+   
+   
+}
+
+.btn{
+    /* display: flex;
+    justify-content: center; */
+    font-size: 30px;
+    margin: 5px;
+    padding: 30px 168px;
+    border: 2px solid white ;
+    background-color: black;
+    color: #f6f4e6;
+   
+}
+  
+
+/*    our  clients   means  our  parterns    */
+
+
+
+
+#client-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 50px;
+    margin-bottom:50px ;
+    flex-wrap: wrap;
+
+}
+#our-cilents{
+
+    font-size: 75px;
+    
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 15px;
+} 
+
+.clients img{
+    height: 150px;
+    margin: 10px;
+ 
+}
+
+.clients::before{
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+   opacity: 0.4;  
+  
+}
+
+
+#contact{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    flex-direction: column;
+    margin: 50px;
+    background: url('black.webp');
+    color: #f6f4e6;
+     margin: 0px; 
+    padding: 100px;
+
+}
+
+/* .about ::before{
+    content: "";
+   position: absolute;
+   width: 100%;
+   height: 100%;
+    z-index: -1; 
+    opacity: 0.4;   
+   background: url('black.webp') no-repeat  center center/cover;
+} */
+
+
+#contact div li a {
+    display: flex;
+    justify-self:center;
+    align-items: center;
+    margin-top: 15px;
+    text-decoration:none;
+    color: rgb(235, 226, 226);
+  
+}
+
+
+#contact div li a:hover {
+    color: rgb(11, 11, 11);
+    background-color: rgb(244, 240, 240);
+    
+  }
